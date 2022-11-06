@@ -1,0 +1,235 @@
+* {
+
+    margin: 0;
+    /* resetar toda a página */
+    padding: 0;
+    /* resetar toda a página */
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* fonte geral da página */
+    background: #ccc;
+    /* cor de fundo da area principal */
+
+}
+
+.hero {
+
+    background-image: url(/img/006.jpg);
+    /* imagem de fundo */
+    height: 500px;
+    /* altura da imagem */
+    background-position: right center;
+    /* posição de visualização da imagem */
+    background-size: cover;
+    /* mostrar a imagem inteira */
+
+}
+
+.txtprincipal {
+
+    text-align: center;
+    /* centralizar o texto */
+    color: white;
+    /* cor da fonte */
+    margin-top: 15%;
+    /* margem e posicionamento do texto principal */
+
+
+}
+
+.txtprincipal h1 {
+
+    text-transform: uppercase;
+    /* todas as letras em maiúsculas */
+    font-size: 36px;
+    /* tamanho da fonte */
+    text-shadow: 3px 3px 5px black;
+    /* 1-DIREITA, 2-BAIXO, 3-ESFUMAÇAMENTO, 4-COR */
+
+}
+
+main {
+
+    width: 80%;
+    /* distancia em largura */
+    margin: auto;
+    /* centralizar */
+
+}
+
+.sec1 {
+
+    display: inline-block;
+    background-color: white;
+    /* cor de fundo */
+    width: 100%;
+    height: 400px;
+
+}
+
+.sec2 {
+
+    background-color: white;
+    /* cor de fundo */
+    padding: 15px;
+    /* espaçamento inclinado do conteudo */
+    margin-top: 15px;
+    /* espaçamento do bloco */
+
+}
+
+.bloco1 {
+
+    display: inline-block;
+    margin-top: 90px;
+    /* espaçamento do bloco */
+    margin-left: 12%;
+    /* espaçamento do bloco */
+
+
+
+
+}
+
+.bloco2 {
+
+    display: inline-block;
+    margin-top: 90px;
+    /* espaçamento do bloco */
+    margin-left: 15%;
+    /* espaçamento do bloco */
+
+
+
+}
+
+.bloco3 {
+
+    display: inline-block;
+    margin-top: 90px;
+    /* espaçamento do bloco */
+    margin-left: 5%;
+    /* espaçamento do bloco */
+
+
+
+
+
+}
+
+.bloco1 img {
+
+    width: 150px;
+    /* tamanho da imagem */
+
+}
+
+.bloco2 img {
+
+    width: 150px;
+    /* tamanho da imagem */
+
+}
+
+.bloco3 img {
+
+    width: 340px;
+    /* tamanho da imagem */
+
+}
+
+.sec1 p {
+
+    text-align: center;
+    /* centralizar texto */
+    text-transform: uppercase;
+    /* todas as letras em maiúsculas */
+    font-size: 18px;
+    /* tamanho da fonte */
+    color: rgb(39, 39, 39);
+    /* cor do texto */
+    text-shadow: 4px 6px 10px rgb(0, 0, 0);
+    /* 1-DIREITA, 2-BAIXO, 3-ESFUMAÇAMENTO, 4-COR */
+
+}
+
+.rodape {
+
+    padding: 15px;
+    /* espaçamento inclinado do conteudo */
+
+}
+
+.hero ul {
+
+    background-color: rgba(2, 2, 2, 0.527);
+    /* cor de fundo */
+    padding: 10px;
+    /* espaçamento inclinado do conteudo */
+
+}
+
+.hero ul li {
+
+    display: inline-block;
+    /* divisão de blocos em linha */
+    padding-top: 15px;
+    /* espaçamento do conteudo */
+    padding-left: 20px;
+    /* espaçamento do conteudo */
+    padding-bottom: 15px;
+    /* espaçamento do conteudo */
+    padding-right: 20px;
+    /* espaçamento do conteudo */
+    text-align: center;
+    /* alinhar texto */
+    text-decoration: none;
+    /* remover sublinhado do link */
+    color: rgb(190, 190, 190);
+    /* cor do texto */
+
+
+}
+
+a {
+
+    color: inherit;
+    /* padrão pra remover sublinhado de link */
+    text-decoration: none;
+    /* remover sublinhado do link */
+
+}
+
+a:link {
+    color: rgb(190, 190, 190);
+    /* cor do link padrão */
+}
+
+
+a:visited {
+    color: rgb(190, 190, 190);
+    /* link que foi visitado */
+}
+
+
+a:hover {
+    color: white;
+    /* cor muda ao passar o mouse */
+}
+
+
+a:active {
+    color: rgb(190, 190, 190);
+    /* link selecionado */
+}
+
+.rodape p{
+
+    
+    text-align: center; /* alinhar texto */
+
+}
